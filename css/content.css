@@ -140,3 +140,23 @@ figcaption {
 .mySlides img {
   height: 250px;
 }
+
+/* Media Query */
+@media (max-width: 1299px) {
+  .left-container {
+    width: 60%;
+    margin: auto;
+  }
+  .blog-column {
+    width: 100%;
+  }
+  .inline input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .blog-column {
+    width: 100%;
+  }
+}
