@@ -180,8 +180,8 @@ figcaption {
   }
 
   .inline input {
-    margin: 1em;
-    padding: 1em;
+    margin: 0em;
+    padding: 0em;
     width: 100%;
   }
 
@@ -193,7 +193,7 @@ figcaption {
   }
   form {
     width: 90%;
-    padding: 1em;
+    /* padding: 1em; */
     text-align: center;
   }
 }
