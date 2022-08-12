@@ -294,7 +294,6 @@ footer {
     text-align: center;
   }
   .container {
-    /* display: block; */
     grid-template-areas: "left-container" "right-container";
     width: 80%;
     margin: auto;
