@@ -304,7 +304,6 @@ footer {
     margin-bottom: 2%;
   }
   .right-container {
-    width: 80%;
     margin: auto;
     text-align: center;
   }
@@ -313,9 +312,6 @@ footer {
   }
   .image-overlay img {
     height: 400px;
-  }
-  .container p {
-    color: red;
   }
 }
 
