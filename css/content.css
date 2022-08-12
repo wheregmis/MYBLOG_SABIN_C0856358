@@ -1,0 +1,142 @@
+/* Contact Page */
+.contact-heading h3 {
+  text-align: center;
+  font-size: 30px;
+}
+.contact-container {
+  display: block;
+}
+
+/* Contact Form */
+.inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-bottom: 5px;
+  justify-content: center;
+}
+
+.inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  width: 48%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+button {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
+button:hover {
+  border: 1px solid black;
+  background: white;
+  color: black;
+}
+textarea {
+  width: 97.5%;
+  height: 150px;
+  margin: 5px 10px 5px 0;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+form {
+  padding: 20px 200px;
+  text-align: center;
+}
+/* Blog Page */
+.project-contents h3 {
+  font-size: 30px;
+}
+.project-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.project-container p {
+  text-align: justify;
+}
+.project-container h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+figcaption {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+/* About Page */
+.column img {
+  height: 100px;
+}
+.image-carousel {
+  position: relative;
+}
+.mySlides {
+  display: none;
+}
+.cursor {
+  cursor: pointer;
+}
+.previous,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.previous:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  width: 12.5%;
+}
+.img {
+  opacity: 0.6;
+}
+
+.active,
+.img:hover {
+  opacity: 1;
+}
+.mySlides img {
+  height: 250px;
+}
