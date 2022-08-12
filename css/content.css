@@ -158,7 +158,7 @@ figcaption {
     width: 100%;
   }
   form {
-    padding: 20px 100px;
+    padding: 0em;
     text-align: center;
   }
   form textarea {
@@ -193,7 +193,6 @@ figcaption {
   }
   form {
     width: 90%;
-    /* padding: 1em; */
     text-align: center;
   }
 }

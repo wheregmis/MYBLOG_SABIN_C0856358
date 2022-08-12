@@ -305,7 +305,7 @@ footer {
     margin-bottom: 2%;
   }
   .right-container {
-    margin: auto;
+    /* margin: auto; */
     text-align: center;
   }
   .image-overlay {
